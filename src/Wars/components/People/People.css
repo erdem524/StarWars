@@ -5,3 +5,16 @@
   font-size: 36px;
   padding: 20px;
 }
+
+.card {
+  margin-bottom: 0em !important;
+}
+/* 
+
+                  <Image
+                    src={Img.filter((m) => m.title === item.title)[0].url}
+                    class="ui large image"
+                    alt="poster"
+                    height="550px"
+                    width="400px"
+                  /> */
