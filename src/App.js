@@ -1,13 +1,10 @@
-import './App.css';
-import Wars from './Wars/Wars';
-
+import "./App.css";
+import StarWars from "./StarWars/StarWars";
 
 function App() {
-
-
   return (
     <div className="App">
-     <Wars/>
+      <StarWars />
     </div>
   );
 }
