@@ -10,16 +10,19 @@ function People({ data }) {
       <Grid
         stackable
         columns={4}
-        style={{ padding: "20px 0 40px 0", minHeight: "2100px" }}
+        style={{ padding: "20px 0", minHeight: "2100px" }}
       >
         {data.map((person, index) => {
           return (
-            <Grid.Column key={index}>
+            <Grid.Column style={{ height: "fit-content" }} key={index}>
               <Card>
                 <Card.Content>
                   <Card.Content
                     textAlign="center"
-                    style={{ height: "40px", fontSize: "16px" }}
+                    style={{
+                      height: "40px",
+                      fontSize: "16px",
+                    }}
                   >
                     {person.name}
                   </Card.Content>

@@ -10,11 +10,11 @@ function Planets({ data }) {
       <Grid
         stackable
         columns={4}
-        style={{ padding: "20px 0 40px 0", minHeight: "2100px" }}
+        style={{ padding: "20px 0", minHeight: "2100px" }}
       >
         {data.map((planets, index) => {
           return (
-            <Grid.Column key={index}>
+            <Grid.Column style={{ height: "fit-content" }} key={index}>
               <Card>
                 <Card.Content>
                   <Card.Content
